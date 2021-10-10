@@ -22,6 +22,11 @@ $.post('https://script.google.com/macros/s/AKfycbxJQqwCD2H1Udo0HKltGk1k7LnPXcvu5
 <h2>这是标题</h2>
 <p>这是一个段落。</p>
 <p id='xx'>这是另外一个段落。</p>
-<button>点我</button>
+<button clickon='chg()'>点我</button>
 <button id="b1">to Line</button>
 <p id='xx1'>这是另外一个段落。</p>
+  <script>
+   var xx1=document.getElementById('#xx1');
+    function chg(){xx1.innHTML='GOOD';}
+  </script>  
+</body>
